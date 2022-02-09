@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dota_builds",
+  "info": {
+    "singularName": "dota-build",
+    "pluralName": "dota-builds",
+    "displayName": "Dota-build"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "boots": {
+      "type": "string"
+    },
+    "core1": {
+      "type": "string"
+    },
+    "core2": {
+      "type": "string"
+    },
+    "slot4": {
+      "type": "string"
+    },
+    "slot5": {
+      "type": "string"
+    },
+    "slot6": {
+      "type": "string"
+    }
+  }
+}
