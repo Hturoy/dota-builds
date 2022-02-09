@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dota_heroes",
+  "info": {
+    "singularName": "dota-hero",
+    "pluralName": "dota-heroes",
+    "displayName": "dota-hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "role": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "integer",
+      "max": 3,
+      "min": 1,
+      "required": true
+    }
+  }
+}
