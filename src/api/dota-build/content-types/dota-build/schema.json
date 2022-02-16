@@ -4,7 +4,8 @@
   "info": {
     "singularName": "dota-build",
     "pluralName": "dota-builds",
-    "displayName": "Dota-build"
+    "displayName": "Dota-build",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,6 +28,9 @@
       "type": "string"
     },
     "slot6": {
+      "type": "string"
+    },
+    "HeroBuild": {
       "type": "string"
     }
   }
